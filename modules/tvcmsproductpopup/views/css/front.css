@@ -1,0 +1,107 @@
+.tvcms-prod-popup {
+    margin-left: 0;
+    position: fixed;
+    z-index: 1;
+    left: 15px;
+    bottom: 15px;
+    opacity: 0;
+    font-size: 17px;
+    z-index: 100;
+    box-shadow: 0px 5px 10px 0px rgba(23, 84, 116, 0.18);
+    display: none;
+    max-width: 250px;
+}
+.tvcms-prod-popup.show {
+    opacity: 1;
+    display: block;
+}
+.tvcms-prod-popup .tvproduct-name,
+.tvcms-prod-popup .tvproduct-timer {
+    margin-bottom: 10px;
+}
+.tvcms-prod-popup .tvproduct-timer .tvproduct-timer-wrapper {
+    margin: 0;
+}
+.tvcms-prod-popup .tvproduct-wrapper .tvproduct-timer-wrapper .hours,
+.tvcms-prod-popup .tvproduct-wrapper .tvproduct-timer-wrapper .minutes,
+.tvcms-prod-popup .tvproduct-wrapper .tvproduct-timer-wrapper .days,
+.tvcms-prod-popup .tvproduct-wrapper .tvproduct-timer-wrapper .seconds {
+    font-size: 12px;
+}
+.tvcms-prod-popup .product-price-and-shipping .price {
+    font-size: 14px;
+}
+.tvcms-prod-popup .product-price-and-shipping .regular-price {
+    font-size: 12px;
+}
+.tvcms-prod-popup .thumbnail-container .product-container-img {
+    position: relative;
+    float: left;
+    width: 90px;
+    border: 0;
+    line-height: 0;
+    margin: 0;
+    min-height: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    display: -webkit-flex
+}
+
+.tvcms-prod-popup .thumbnail-container .product-description {
+    padding: 5px 0 5px 10px;
+    width: calc(100% - 90px);
+    margin-top: 0;
+
+}
+.close-prod-popup {
+    position: absolute;
+    right: 4px;
+    top: 2px;
+    left: auto;
+}
+.close-prod-popup i {
+    font-size: 18px;
+}
+.tvcms-prod-popup .thumbnail-container .date-ago {
+    font-size: 13px;
+    margin-top: 15px;
+}
+.tvcms-prod-popup .tvproduct-wrapper .tvproduct-info-box-wrapper {
+    padding: 0;
+    text-align: center;
+}
+.tvcms-prod-popup .tvproduct-wrapper {
+    min-width: 110px;
+    overflow: hidden;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+}
+.tvcms-prod-popup .product-flags,
+.tvcms-prod-popup .tvproduct-hover-btn {
+    display: none;
+}
+
+.lang-rtl .tvcms-prod-popup {
+    left: auto;
+    right: 15px;
+}
+
+.tvprodpopup-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 5px;
+    z-index: 10;
+}
+
+.tvprodpopup-close i {
+    font-size: 18px;
+    color: #000;
+}
+
+.lang-rtl .tvprodpopup-close {
+    left: 5px;
+    right: auto;
+}

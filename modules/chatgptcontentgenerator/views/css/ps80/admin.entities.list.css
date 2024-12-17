@@ -1,0 +1,16 @@
+.gpt-select2-wrapper .select2-search {
+	display: none !important;
+}
+
+.gpt-select2-wrapper .select2-container--bootstrap .select2-selection--multiple .select2-selection__choice {
+	margin: 1px;
+}
+
+.gpt-select2-wrapper .select2-container--bootstrap .select2-selection--multiple {
+	border-radius: 4px;
+	padding: 2px;
+}
+
+table .gpt-select2-wrapper > .select2 {
+	width: 100% !important;
+}

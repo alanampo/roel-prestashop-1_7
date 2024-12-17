@@ -1,0 +1,41 @@
+.gpt-select2 ~ .select2 {
+    padding: 2px;
+    border-radius: var(--edition-radius)!important;
+        border-color: var(--edition-black-100);
+    border-style: solid;
+    border-width: 1px;
+}
+
+.gpt-select2 ~ .select2 input {
+    display: none;
+}
+
+.gpt-select2 ~ .select2:hover {
+    border-color: var(--edition-black-default) !important;
+    background-color: var(--edition-lightblue-100) !important;
+}
+
+.gpt-select2 ~ .select2:hover input {
+    background-color: var(--edition-lightblue-100) !important;
+}
+
+.gpt-select2 ~ .select2.select2-container--open {
+    outline: 2px solid var(--edition-focus) !important;
+}
+
+.gpt-select2 ~ .select2 .select2-selection__rendered {
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+}
+
+.gpt-select2 ~ .select2 .select2-selection__choice__remove {
+    margin-right: 0.2rem;
+    font-size: 1rem;
+}
+
+.gpt-select2 ~ .select2 .select2-selection__choice__remove:hover {
+    color: var(--edition-white);
+    opacity: .5;
+}
+

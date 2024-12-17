@@ -1,0 +1,189 @@
+/**
+* 2007-2022 PrestaShop
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Academic Free License (AFL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/afl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@prestashop.com so we can send you a copy immediately.
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+* versions in the future. If you wish to customize PrestaShop for your
+* needs please refer to http://www.prestashop.com for more information.
+*
+*  @author PrestaShop SA <contact@prestashop.com>
+*  @copyright  2007-2022 PrestaShop SA
+*  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+*  International Registered Trademark & Property of PrestaShop SA
+*/
+
+/************* category ***************/
+.tvcategory-slider-content-box {
+    display: flex;
+    overflow: hidden;
+}
+.tvcategory-slider-wrapper-info {
+    /*display: inline-block;*/
+}
+.tvcmscategory-slider {
+    padding-top: 100px;
+    margin-bottom: 100px;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.tvcategory-slider {}
+.tvcategory-slider-wrapper-info {
+    padding: 0 15px;
+    /*position: relative;*/
+    min-width: 212px;
+}
+.owl-item .tvcategory-slider-wrapper-info {
+    min-width: initial;
+}
+.tvcategory-slider-title-content {
+    /*margin-left: 0;*/
+}
+.tvcategory-slider-main-title-wrapper {
+    position: relative;
+}
+.tvcategory-slider-inner-info-box {
+    /*margin-left: -15px;*/
+    /*margin-right: -15px;*/
+}
+.tvcategory-img-block {
+    margin: auto;
+    padding: 12px;
+    background-color: #ffffff60;
+    display: inline-block;
+    z-index: 1;
+    position: relative;
+}
+.tvcategory-slider-main-title-banner {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    display: grid;
+    align-content: center;
+}
+.tvcategory-slider-main-title-banner .tvcms-next-pre-btn {
+    margin-top: 0;
+}
+.tvcategory-slider-main-title-banner i {
+    font-size: 34px;
+    color: #82bc14;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.tvcategory-slider-wrapper-info a {
+    cursor: pointer;
+    text-align: center;
+    display: block;
+}
+.tvcategory-slider-info-box {
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    background-color: #f7f7f7;
+    border: 8px solid #fff;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+}
+.tvcmscategory-slider .tvcategory-slider-info-box img{
+    margin-bottom: -60px;
+}
+.tvcategory-slider-wrapper-info a.tvcategory-slider-title{
+    margin-bottom: 60px;
+    padding: 30px;
+    position: relative;
+}
+.tvcategory-slider-wrapper-info a.tvcategory-slider-title:before,
+.tvcategory-slider-wrapper-info a.tvcategory-slider-title:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    height: calc(100% - 45.5%);
+    left: 0;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.tvcategory-slider-wrapper-info a.tvcategory-slider-title:after{
+    background-image: url(../img/category-hover.png);    
+}
+.tvcategory-slider-wrapper-info a.tvcategory-slider-title:before{
+    background: #62774c;
+}
+.tvcategory-slider-wrapper-info a.tvcategory-slider-title:hover:before,
+.owl-item:nth-child(2n) .tvcategory-slider-wrapper-info a.tvcategory-slider-title:before,
+.tvcategory-slider-wrapper-info a.tvcategory-slider-title:hover:after,
+.owl-item:nth-child(2n) .tvcategory-slider-wrapper-info a.tvcategory-slider-title:after{
+    visibility: visible;
+    opacity: 1
+}
+.tvcategory-slider-info-title {
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: normal;
+    padding: 15px 0 20px;
+}
+.tvcategory-slider-all-link {
+    font-size: 13px;
+    line-height: normal;
+    color: #888;
+}
+.tvcategory-slider-wrapper-info:hover .tvcategory-slider-all-link {
+    color: #82bc14;
+}
+.tvcategory-slider-short-desc {
+    color: #82bc14;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: normal;
+    font-style: italic;
+}
+@media (max-width: 650px) {
+    .tvcategory-slider-short-desc {
+        font-size: 16px;
+    }
+    .tvcategory-slider-info-title {
+        font-size: 20px;
+    }
+    .tvcategory-slider-info-title:after {
+        margin: 7px auto 8px;
+    }
+}
+@media (max-width: 768px) {
+    .tvcategory-slider {
+        display: block;
+    }
+}
+@media(max-width: 480px) {
+    .tvcategory-slider-main-title-wrapper {
+        width: 100%;
+        margin: 0 7.5px;
+        margin-bottom: 15px;
+    }
+    .tvcategory-slider-inner-info-box {
+        width: 100%;
+    }
+    .tvcategory-slider-inner-info-box {
+        padding: 0;
+    }
+    .tvcategory-slider-title-content {
+        margin: 0 -7.5px;
+    }
+}

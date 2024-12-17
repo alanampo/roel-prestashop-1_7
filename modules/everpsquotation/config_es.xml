@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>everpsquotation</name>
+    <displayName><![CDATA[Ever PS Quotation]]></displayName>
+    <version><![CDATA[3.2.1]]></version>
+    <description><![CDATA[Simply accept quotations on your Prestashop !]]></description>
+    <author><![CDATA[Team Ever]]></author>
+    <tab><![CDATA[payments_gateways]]></tab>
+	<confirmUninstall><![CDATA[Do you REALLY want to uninstall this awesome module ?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

@@ -1,0 +1,7 @@
+
+[{shop_url}] 
+
+You have received a new message.		 
+
+{shop_name} [{shop_url}]
+

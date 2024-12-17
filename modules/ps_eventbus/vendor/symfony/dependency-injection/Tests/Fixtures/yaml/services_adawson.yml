@@ -1,0 +1,28 @@
+services:
+    ps_eventbus_v3_0_7\App\Db:
+        public: true
+        properties:
+            schema: '@ps_eventbus_v3_0_7\App\Schema'
+
+    ps_eventbus_v3_0_7\App\Bus:
+        public: true
+        arguments: ['@ps_eventbus_v3_0_7\App\Db']
+        properties:
+            handler1: '@ps_eventbus_v3_0_7\App\Handler1'
+            handler2: '@ps_eventbus_v3_0_7\App\Handler2'
+
+    ps_eventbus_v3_0_7\App\Handler1:
+        ['@ps_eventbus_v3_0_7\App\Db', '@ps_eventbus_v3_0_7\App\Schema', '@ps_eventbus_v3_0_7\App\Processor']
+
+    ps_eventbus_v3_0_7\App\Handler2:
+        ['@ps_eventbus_v3_0_7\App\Db', '@ps_eventbus_v3_0_7\App\Schema', '@ps_eventbus_v3_0_7\App\Processor']
+
+    ps_eventbus_v3_0_7\App\Processor:
+        ['@ps_eventbus_v3_0_7\App\Registry', '@ps_eventbus_v3_0_7\App\Db']
+
+    ps_eventbus_v3_0_7\App\Registry:
+        properties:
+            processor: ['@ps_eventbus_v3_0_7\App\Db', '@ps_eventbus_v3_0_7\App\Bus']
+
+    ps_eventbus_v3_0_7\App\Schema:
+        arguments: ['@ps_eventbus_v3_0_7\App\Db']

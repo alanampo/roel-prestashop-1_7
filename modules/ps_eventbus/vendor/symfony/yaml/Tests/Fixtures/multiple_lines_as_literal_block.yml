@@ -1,0 +1,14 @@
+data:
+    single_line: 'foo bar baz'
+    multi_line: |
+        foo
+        line with trailing spaces:
+          
+        bar
+        integer like line:
+        123456789
+        empty line:
+        
+        baz
+    multi_line_with_carriage_return: "ps_eventbus_v3_0_7\foo\nbar\r\nbaz"
+    nested_inlined_multi_line_string: { inlined_multi_line: "ps_eventbus_v3_0_7\foo\nbar\r\nempty line:\ps_eventbus_v3_0_7\n\nbaz" }

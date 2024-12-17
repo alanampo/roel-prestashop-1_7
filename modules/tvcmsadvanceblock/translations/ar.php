@@ -1,0 +1,35 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{tvcmsadvanceblock}prestashop>tvcmsadvanceblock_7c5fe97f407984a22cbafd523bc2e824'] = 'JHPTemplate - تقدم بلوك';
+$_MODULE['<{tvcmsadvanceblock}prestashop>tvcmsadvanceblock_e72a06c334bec07999f34860e6220cdc'] = 'إظهار كتلة تقدم على الجانب الأمامي';
+$_MODULE['<{tvcmsadvanceblock}prestashop>tvcmsadvanceblock_5c82e8b0ddf4a3ea950c9fc4bcc4e094'] = 'العنوان الرئيسي';
+$_MODULE['<{tvcmsadvanceblock}prestashop>tvcmsadvanceblock_36e3402e4ddef43e92b99aef016c057e'] = 'وصف قصير';
+$_MODULE['<{tvcmsadvanceblock}prestashop>tvcmsadvanceblock_b5a7adde1af5c87d7fd797b6245c2a39'] = 'وصف';
+$_MODULE['<{tvcmsadvanceblock}prestashop>tvcmsadvanceblock_c3bfbcfb6eb560005a6488e8cfa6637c'] = 'صورة الكتلة الرئيسية';
+$_MODULE['<{tvcmsadvanceblock}prestashop>tvcmsadvanceblock_c9cc8cce247e49bae79f15173ce97354'] = 'حفظ';
+$_MODULE['<{tvcmsadvanceblock}prestashop>tvcmsadvanceblock_8a3a9f18f3b603a0b1863759e3f76048'] = 'عنوان البلوك الرئيسي';
+$_MODULE['<{tvcmsadvanceblock}prestashop>tvcmsadvanceblock_18a561bca4f6aa130389b0adcd8aeb81'] = 'زر التسمية التوضيحية';
+$_MODULE['<{tvcmsadvanceblock}prestashop>tvcmsadvanceblock_97e7c9a7d06eac006a28bf05467fcc8b'] = 'حلقة الوصل';
+$_MODULE['<{tvcmsadvanceblock}prestashop>tvcmsadvanceblock_c02076f0639f37dc4b68ecc2d4b981e5'] = 'تقدم بلوك الصورة';
+$_MODULE['<{tvcmsadvanceblock}prestashop>tvcmsadvanceblock_7d7b984acb2cfad902429b837550ac06'] = 'كتلة الرئيسية';
+$_MODULE['<{tvcmsadvanceblock}prestashop>tvcmsadvanceblock_b78a3223503896721cca1303f776159b'] = 'عنوان';
+$_MODULE['<{tvcmsadvanceblock}prestashop>tvcmsadvanceblock_5e3eb74903b14047ea0db2deff93c6d0'] = 'يجب عليك كتابة الرابط الكامل. مثال: - https://www.demo.com/';
+$_MODULE['<{tvcmsadvanceblock}prestashop>tvcmsadvanceblock_be53a0541a6d36f6ecb879fa2c584b08'] = 'صورة';
+$_MODULE['<{tvcmsadvanceblock}prestashop>tvcmsadvanceblock_ec53a8c4f07baed5d8825072c89799be'] = 'الحالة';
+$_MODULE['<{tvcmsadvanceblock}prestashop>tvcmsadvanceblock_e68c6e8dcc97a5c8844d4ae98cf044be'] = 'إخفاء أو إظهار الرموز.';
+$_MODULE['<{tvcmsadvanceblock}prestashop>tvcmsadvanceblock_498f79c4c5bbde77f1bceb6c86fd0f6d'] = 'تبين';
+$_MODULE['<{tvcmsadvanceblock}prestashop>tvcmsadvanceblock_62a5e490880a92eef74f167d9dc6dca0'] = 'إخفاء';
+$_MODULE['<{tvcmsadvanceblock}prestashop>tvcmsadvanceblock_e2858a799b7f85eefc33f7d1076670cc'] = 'كتلة التقدم';
+$_MODULE['<{tvcmsadvanceblock}prestashop>tvcmsadvanceblock_manage_be53a0541a6d36f6ecb879fa2c584b08'] = 'صورة';
+$_MODULE['<{tvcmsadvanceblock}prestashop>tvcmsadvanceblock_manage_b78a3223503896721cca1303f776159b'] = 'عنوان';
+$_MODULE['<{tvcmsadvanceblock}prestashop>tvcmsadvanceblock_manage_36e3402e4ddef43e92b99aef016c057e'] = 'وصف قصير';
+$_MODULE['<{tvcmsadvanceblock}prestashop>tvcmsadvanceblock_manage_b5a7adde1af5c87d7fd797b6245c2a39'] = 'وصف';
+$_MODULE['<{tvcmsadvanceblock}prestashop>tvcmsadvanceblock_manage_97e7c9a7d06eac006a28bf05467fcc8b'] = 'حلقة الوصل';
+$_MODULE['<{tvcmsadvanceblock}prestashop>tvcmsadvanceblock_manage_ec53a8c4f07baed5d8825072c89799be'] = 'الحالة';
+$_MODULE['<{tvcmsadvanceblock}prestashop>tvcmsadvanceblock_manage_004bf6c9a40003140292e97330236c53'] = 'عمل';
+$_MODULE['<{tvcmsadvanceblock}prestashop>tvcmsadvanceblock_manage_7dce122004969d56ae2e0245cb754d35'] = 'تصحيح';
+$_MODULE['<{tvcmsadvanceblock}prestashop>tvcmsadvanceblock_manage_f2a6c498fb90ee345d997f888fce3b18'] = 'حذف';
+$_MODULE['<{tvcmsadvanceblock}prestashop>form_92fbf0e5d97b8afd7e73126b52bdc4bb'] = 'اختيار ملف';
+$_MODULE['<{tvcmsadvanceblock}prestashop>form_840044224ccac6db80b0166cd7465655'] = 'يرجى اختيار الصورة.';

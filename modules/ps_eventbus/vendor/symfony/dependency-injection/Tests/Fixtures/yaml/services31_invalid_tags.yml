@@ -1,0 +1,6 @@
+services:
+    _defaults:
+        tags: ['foo']
+
+    ps_eventbus_v3_0_7\Foo\Bar:
+        tags: invalid

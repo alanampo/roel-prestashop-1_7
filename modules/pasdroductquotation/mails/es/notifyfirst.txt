@@ -1,0 +1,7 @@
+
+[{shop_url}] 
+
+{message} 		 
+
+{shop_name} [{shop_url}]
+

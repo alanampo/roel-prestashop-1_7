@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>tvcmsvideotab</name>
+    <displayName><![CDATA[JHP Template - Product Video Tab]]></displayName>
+    <version><![CDATA[4.0.0]]></version>
+    <description><![CDATA[Display video on Product Detail, Work on Desktop, Tablet, Mobile]]></description>
+    <author><![CDATA[JHP Template]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

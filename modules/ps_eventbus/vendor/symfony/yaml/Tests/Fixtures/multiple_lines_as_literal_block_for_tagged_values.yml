@@ -1,0 +1,2 @@
+data:
+    foo: !bar "ps_eventbus_v3_0_7\foo\r\nline with trailing spaces:\n  \ps_eventbus_v3_0_7\nbar\ninteger like line:\ps_eventbus_v3_0_7\n123456789\nempty line:\ps_eventbus_v3_0_7\n\nbaz"

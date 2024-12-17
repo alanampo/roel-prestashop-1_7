@@ -1,0 +1,7 @@
+
+[{shop_url}] 
+
+{Quote Received} 		 
+
+{shop_name} [{shop_url}]
+

@@ -1,0 +1,179 @@
+/**
+* 2007-2022 PrestaShop
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Academic Free License (AFL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/afl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@prestashop.com so we can send you a copy immediately.
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+* versions in the future. If you wish to customize PrestaShop for your
+* needs please refer to http://www.prestashop.com for more information.
+*
+*  @author PrestaShop SA <contact@prestashop.com>
+*  @copyright  2007-2022 PrestaShop SA
+*  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+*  International Registered Trademark & Property of PrestaShop SA
+*/
+.tvadvance-block-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    -webkit-box-align: center;
+    justify-content: center;
+    margin: 25px 0 ;
+    direction: ltr;
+}
+.tv-advance-block-image {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    border-right: 2px solid #eee;
+}
+.tv-advance-block-info-content,
+.tv-advance-block-image{
+    padding: 5px 40px;
+}
+.tv-advance-block-info-content{
+    text-align: initial;
+}
+.tv-advance-block-info-title{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #000;
+}
+.tv-advance-block-info-subtitle{
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 2px;
+    text-transform: capitalize;
+    color: #62774c;
+}
+.tvadvance-block-content .tvadvance-block-content-desc p {
+    margin: 20px 0 40px;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 500;
+}
+.tvadvance-block-content-img {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    z-index: 0;
+    margin-bottom: 5px;
+}
+.tvadvance-block-content-details {
+    text-align: center;
+}
+.tvadvance-block-content-title {
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+}
+.tvadvance-block-content-desc {
+    font-size: 14px;
+    color: #000000;
+    line-height: 20px;
+    font-weight: 400;
+}
+.tvadvance-bolck-btn-link-wrapper .tvadvance-bolck-btn {
+    background-color: transparent;
+    padding: 8px 22px;
+    border-radius: 50px;
+    border: 1px solid #222;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.tvadvance-bolck-btn-link-wrapper .tvadvance-bolck-btn:hover {
+    border-color: #af8453;
+}
+.tvadvance-bolck-btn-link-wrapper .tvadvance-bolck-btn:hover span {
+    color: #af8453;
+}
+.tvadvance-bolck-btn-link-wrapper .tvadvance-bolck-btn span {
+    color: #222;
+    font-size: 14px;
+    font-weight: 700;
+}
+.tvadvance-bolck-btn:hover span {
+    color: #333;
+}
+.tvcmsadvance-block-content {
+    text-align: center;
+    position: initial;
+    width: 90%;
+    margin: auto;
+}
+.tvadvance-block {
+    z-index: 1;
+}
+.tvcmsadvance-block {
+    position: relative;
+    margin-bottom: 100px;
+    padding-bottom: 90px;
+    border-bottom: 1px solid #eee;
+}
+.tvcmsadvance-block-sub-title{
+    position: absolute;
+    left: 53%;
+    transform: rotate(90deg);
+    z-index: 0;
+    top: -80px;
+    opacity: 0.05;
+}
+.tvcmsadvance-block-sub-title h1{
+    font-size: 240px;
+    font-weight: 800;
+}
+.tvadvance-block-sub-description,
+.tvadvance-block-desc{
+    width: 70%;
+    margin: auto;
+    font-size: 14px;
+    color: #000;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.tvadvance-block-desc{
+    margin-bottom: 20px;
+}
+.tvadvance-block{
+    text-align: center;
+}
+@media (max-width: 1280px){
+    .tvcmsadvance-block-content{
+        width: auto;
+        margin: 0 -15px;
+    }
+}
+@media (max-width: 991px){
+    .tvcmsadvance-block{
+        margin-bottom: 50px;
+        padding-bottom: 40px;
+    }
+    .tvadvance-block-content-title{
+        font-size: 16px;
+    }
+}
+@media (max-width: 425px){
+    .tv-advance-block-info-content, .tv-advance-block-image{
+        padding: 10px;
+        border: none;
+    }
+    .tvadvance-block-wrapper{
+        margin: 5px 0 20px;
+    }
+    .tvadvance-block-sub-description, .tvadvance-block-desc{
+        width: auto;
+    }
+}

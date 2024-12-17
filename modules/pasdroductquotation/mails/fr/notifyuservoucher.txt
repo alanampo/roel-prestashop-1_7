@@ -1,0 +1,7 @@
+
+[{shop_url}] 
+
+You have received a voucher of {discount}. Use voucher code {coupon}
+
+{shop_name} [{shop_url}]
+

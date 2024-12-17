@@ -1,0 +1,224 @@
+/*
+* Product Quotation
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Open Software License (OSL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/osl-3.0.php
+*
+* @author    FMM Modules
+* @copyright Copyright 2021 © FMM Modules All right reserved
+* @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+* @category  front_office_features
+* @package   productquotation
+*/
+
+.pq_container { width:100%; clear:both;padding: 10px}
+
+.pq_container .add_to_quote_button {background-image: linear-gradient(#009ad0, #007ab7); background-size: 100% auto;
+border-color: #0079b6 #006fa8 #012740; border-radius: 5px; border-style: solid; border-width: 1px; display: inline-block; padding: 10px;
+position: relative; font-size:15px; font-weight:bold; color:#fff; float: none;}
+
+.pq_container .add_to_quote_button span { padding-left:50px; padding-right:10px;}
+
+.pq_container .add_to_quote_button::before { border: 1px solid #06b2e6; border-radius: 5px 0 0 5px; bottom: 0; color: #fff;
+ content: "\f07a"; font-family: "FontAwesome"; font-size: 25px; left: 0; line-height: 41px; position: absolute; text-align: center;
+ text-shadow: 0 1px #015883; top: 0; width: 51px; z-index: 2;}
+
+.pq_container .add_to_quote_button:hover { background-image: linear-gradient(#007ab7, #009ad0); background-position: 0 0;
+  background-size: 100% auto;}
+
+#pq_top_block {float: right; padding-top: 20px; position: relative; width: 300px; clear: both}
+
+#pq_top_block .product_quotation { background: #333333; padding: 10px}
+
+#pq_top_block .pq_top_anchor { font-size: 14px; font-weight: bold; color: #fff; line-height: 23px}
+
+#pq_top_block .product_quotation::before {color: #fff; content: "\f044"; display: inline-block; font-family: "FontAwesome"; font-size: 23px;
+line-height: 25px; padding-right: 15px; vertical-align: middle; font-weight: normal}
+
+.product_quotation_quantity_wrap { color: #686666;}
+
+#fmm_pq_dropper { display: block; width: 20px; height: 20px; background: url(../img/down.png) no-repeat left top; float: right;
+margin-top: 4px; cursor: pointer}
+
+#fmm_quote_content { clear: both; padding: 8px 0; min-height: 60px; width: 270px; background: #333333; position: absolute; left: 15px; text-align: center; display: none}
+
+.fmm_green_btn {background: #43b155; border: 1px solid #63c473; color: #fff; font-size: 1.1em; padding: 7px 13px;
+font-weight: bold; text-align: center; margin: 10px 5% 0; display: block;}
+
+#fmm_quote_content .pq_img { float: left; margin-right: 10px}
+
+#fmm_quote_content .pq_img img {border: 2px solid #000;}
+
+#fmm_quote_content li { display: block; clear: both; padding: 10px; background: #484848; border-bottom: 1px solid #000}
+
+#fmm_quote_content li h6 { text-align: left; font-size: 12px; margin-top: 3px; float: left; width: 158px}
+
+#fmm_quote_content li h6 a {color: #898989;}
+
+#fmm_quote_content li h6 a:hover { color: #fff}
+
+#fmm_quote_content li:after, #fmm_quote_from ul li:after, #fmm_account_quotation_products ul li:after { content: '.'; visibility: hidden; line-height: 0px; clear: both; display: block; height: 1px}
+
+#fmm_quote_content li h6 strong { color: #898989; line-height: 22px}
+
+#fmm_quote_content .fmm_quote_del { cursor: pointer; float: right; width: 16px; height: 16px; display: block; background: url(../img/del.png) no-repeat left top;}
+
+#fmm_quote_from ul li { padding: 10px; background: #F6F6F6; border-bottom: 2px solid #E9E9E9; list-style: none}
+
+#fmm_quote_from ul li div.pq_img { float: left; padding-right: 20px;}
+
+#fmm_quote_from ul li div.pq_img img { border: 2px solid #D6D6D6}
+
+#fmm_quote_from ul li h6 { margin: 2px 0; font-size: 14px;}
+
+#fmm_quote_from ul li h6 strong { float: right; font-size: 13px;}
+
+#fmm_quote_from ul li.fmm_total { font-weight: bold; text-align: right}
+
+.fmm_refresh_ico { cursor: pointer}
+
+#pq_form_major { clear: both;}
+
+#pq_form_major:after { content: '.'; visibility: hidden; line-height: 0px; clear: both; display: block; height: 1px}
+
+.submit_fmm_pq_submit { padding-top: 20px}
+
+#pq_form_major input[type="text"], #pq_form_major textarea { background: #fbfbfb; border: 1px solid #d6d4d4; font-size: 13px; padding: 3px 5px;}
+
+#pq_form_major table { border: 1px solid #d6d4d4; border-bottom: 0px;border-right: 0px;}
+
+#pq_form_major table td, #pq_form_major table th { border-bottom: 1px solid #d6d4d4; border-right: 1px solid #d6d4d4}
+
+#pq_form_major textarea { min-width: 300px}
+
+#pq_form_major ol { list-style: decimal; padding-left: 25px}
+
+#pq_form_major ul { list-style: disc; padding-left: 25px}
+
+#pq_form_major div.checker { vertical-align: sub; display:inline}
+
+.pq_cartpage_container { text-align: right; padding: 10px 0;}
+
+#fmm_account_quotation_products {}
+#fmm_account_quotation_products ul li { padding: 10px; background: #F6F6F6; border-bottom: 2px solid #E9E9E9;}
+
+#fmm_account_quotation_products ul li div.pq_img { float: left; padding-right: 20px;}
+
+#fmm_account_quotation_products ul li div.pq_img img { border: 2px solid #D6D6D6}
+
+#fmm_account_quotation_products ul li h6 { margin: 2px 0; font-size: 14px;}
+
+#fmm_account_quotation_products ul li h6 strong { float: right; font-size: 13px;}
+
+#fmm_account_quotation_products ul li.fmm_total { font-weight: bold; text-align: right}
+
+#fmm_message_tree { clear: both; padding: 0 0 20px;}
+
+#fmm_message_tree ul { padding: 0px; list-style: none;}
+
+#fmm_message_tree ul li { padding: 15px 20px 0px; font-size: 13px; color: #333333; border-left: 2px solid #333333;
+margin-top: 10px; margin-bottom: 12px; clear: both}
+
+#fmm_message_tree ul li span { display:block; background: #333333; color: #fff; padding: 2px 10px;
+font-size: 11px; line-height: 18px; margin-left: -20px; margin-right: -20px; margin-top: 10px}
+
+
+#fmm_message_tree ul li.fmm_level_thread_0 { margin-left: 5%; background: #F6F6F6}
+
+#fmm_message_tree ul li.fmm_level_thread_1 { margin-left: 12%; background: #E2FFE4}
+
+
+
+.fmm_quote_row_qty { padding: 3% 1%; max-width: 45px}
+
+.fmm_quote_sb_btn { margin-right: 3%}
+
+#fmm_quote_form .fmm_quote_del { display: inline-block; width: 24px; height: 24px; background: url(../img/del_red.png) no-repeat left center;
+cursor: pointer; float: right; margin-left: 4%}
+
+.ps_ver_17_only .product_quotation::before { font-family: Material Icons !important; content: " " !important;
+background: url("../img/basket.png") no-repeat left top; width: 18px; height: 18px; margin-right: 3%;}
+
+.ps_16_qty { margin-bottom: 5px !important;}
+
+.ps_16_upd_btn { margin-left: 3%}
+
+.pq_customized_data { font-size: 11px; margin-top: -15px;}
+
+/*------ PS-17 styles -------*/
+.fmm_pq_ps17 { z-index: 9}
+.pq_container.ps_rules_17 .add_to_quote_button::before { content: "";}
+.pq_container.ps_rules_17 .add_to_quote_button { cursor: pointer}
+
+.pq_container .new {background-image: linear-gradient(#009ad0, #007ab7); background-size: 100% auto;
+border-color: #0079b6 #006fa8 #012740; border-radius: 5px; border-style: solid; border-width: 1px; display: inline-block; padding: 3px;
+position: relative; font-size:15px; font-weight:bold; color:#fff; float: none;}
+
+.quote-message-count {
+  color: #fff;
+  font-size: 10px;
+  font-family: Arial, san-serif;
+  font-weight: bold;
+}
+
+
+.quote-badge {
+  position: absolute;
+  right: 0px;
+  top: -5px;
+  z-index: 10;
+}
+
+.quote-messages img {
+  width: 15px;
+  height: auto;
+}
+
+.quote-messages {
+  width: 31px;
+  height: 19px;
+  background-image: url('../img/msg.gif');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: top;
+  margin: 7px 0 0 0;
+  position: relative;
+}
+
+.quote-badge {
+  background: radial-gradient( 5px -9px, circle, white 8%, #ed2324 26px );
+  background: -moz-radial-gradient( 5px -9px, circle, white 8%, #ed2324 26px );
+  background: -ms-radial-gradient( 5px -9px, circle, white 8%, #ed2324 26px );
+  background: -o-radial-gradient( 5px -9px, circle, white 8%, #ed2324 26px );
+  background: -webkit-radial-gradient( 5px -9px, circle, white 8%, #ed2324 26px );
+  background-color: #ed2324;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  padding: 5% 5%;
+  position: relative;
+  right: -10px;
+  top: -10px;
+  float: right;
+  display: block;
+}
+
+.quote-message-count {
+  position: relative;
+  display: block;
+  font: bold 14px/13px Helvetica, Verdana, Tahoma;
+  text-align: center;
+  margin: 0;
+  top: 2px;
+}
+
+
+
+.ps1780.pq_container { position: relative;}
+.ps1780.pq_container .product-flag.discount { margin-top: 0px !important;}

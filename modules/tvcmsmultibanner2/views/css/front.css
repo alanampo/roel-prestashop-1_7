@@ -1,0 +1,470 @@
+/**
+* 2007-2022 PrestaShop
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Academic Free License (AFL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/afl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@prestashop.com so we can send you a copy immediately.
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+* versions in the future. If you wish to customize PrestaShop for your
+* needs please refer to http://www.prestashop.com for more information.
+*
+*  @author    PrestaShop SA <contact@prestashop.com>
+*  @copyright 2007-2022 PrestaShop SA
+*  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+*  International Registered Trademark & Property of PrestaShop SA
+*
+* Don't forget to prefix your containers with your own identifier
+* to avoid any conflicts with others containers.
+*/
+
+/**************** tv multibanner **********************/
+.tvcmsmultibanners {
+    position: relative;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.tvmultibanners {
+    margin: 0 -15px;
+}
+.tvmultibanner-second .tvmultibanner {
+    padding-left: 0;
+    padding-right: 0;
+}
+.tvmultibanner-part1,
+.tvmultibanner-part2 {
+    padding: 0;
+    text-align: center;
+}
+@media (max-width: 991px) {
+    .tvcmsmultibanners {
+        margin-bottom: 30px;
+    }
+}
+.tvcmsmultibanners .tvmultibanner-wrapper_inner .tvmultibanner-3,
+.tvcmsmultibanners .tvmultibanner-wrapper_inner .tvmultibanner-1 {
+    padding: 0 7.5px 0 0;
+}
+.tvmultibanner2-center-wrapper {
+    padding: 0;
+}
+.tvcmsmultibanners .tvmultibanner-wrapper_inner .tvmultibanner-2 {
+    margin-bottom: 15px;
+    padding: 0;
+}
+.tvcmsmultibanners .tvmultibanner-1,
+.tvcmsmultibanners .tvmultibanner-2,
+.tvcmsmultibanners .tvmultibanner-3 {
+    /*display: inline-block;*/
+    vertical-align: middle;
+    padding: 0 15px;
+    position: relative;
+}
+.tvbanner-hover-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
+.tvcmsmultibanners .tvbanner-hover-wrapper {
+    display: inline-block;
+}
+.none.tvmultibanners-content {
+    /*display: none;*/
+}
+.tvbanner-hover-wrapper:after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    -webkit-transform: skewX(-50deg);
+    -moz-transform: skewX(-50deg);
+    -ms-transform: skewX(-50deg);
+    -o-transform: skewX(-50deg);
+    transform: skewX(-50deg);
+    bottom: 0%;
+    left: -110%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.20);
+}
+.tvbanner-hover-wrapper:hover:after {
+    left: 300%;
+    -webkit-transition: all 1.5s ease 0.1s;
+    -o-transition: all 1.5s ease 0.1s;
+    transition: all 1.5s ease 0.1s;
+}
+/*Left Align*/
+.tvmultibanners-content.left {
+    position: absolute;
+    width: 50%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: max-content;
+    /*-webkit-transform: translateY(-50px);
+    -moz-transform: translateY(-50px);
+    -ms-transform: translateY(-50px);
+    -o-transform: translateY(-50px);
+    transform: translateY(-50px);*/
+    left: 9%;
+    text-align: center;
+}
+
+.tvmultibanners-content.top-left {
+    top: 10%;
+    left: 9%;
+    position: absolute;
+    width: 60%;
+    text-align: left;
+}
+
+.tvmultibanners-content.bottom-left {
+    bottom: 10%;
+    left: 9%;
+    position: absolute;
+    width: 50%;
+    text-align: left;
+}
+
+/*Right Align*/
+
+.tvmultibanners-content.right {
+    position: absolute;
+    width: 50%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: max-content;
+    /*webkit-transform: translateY(-50px);
+    -moz-transform: translateY(-50px);
+    -ms-transform: translateY(-50px);
+    -o-transform: translateY(-50px);
+    transform: translateY(-50px);*/
+    right: 6%;
+    text-align: center;
+}
+
+.tvmultibanners-content.top-right {
+    position: absolute;
+    width: 50%;
+    top: 10%;
+    right: 6%;
+    text-align: right;
+}
+
+.tvmultibanners-content.bottom-right {
+    position: absolute;
+    width: 50%;
+    bottom: 10%;
+    right: 6%;
+    text-align: right;
+}
+
+/*Center Align*/
+
+.tvmultibanners-content.center {
+    position: absolute;
+    width: 70%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: max-content;
+    /*-webkit-transform: translateY(-50px);
+    -moz-transform: translateY(-50px);
+    -ms-transform: translateY(-50px);
+    -o-transform: translateY(-50px);
+    transform: translateY(-50px);*/
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+.tvmultibanners-content.top-center {
+    position: absolute;
+    /*width: 50%;*/
+    top: 10%;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+.tvmultibanners-content.bottom-center {
+    position: absolute;
+    /*width: 50%;*/
+    bottom: 10%;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+.tvmultibanners-content.none {
+    display: none;
+}
+.col-xl-12.tvmultibanner-4 .tvmultibanners-content.left {
+    left: 1%;
+    width: 45%;
+}
+.tvmultibanners-content h4 {
+    font-size: 54px;
+    font-weight: 700;
+    letter-spacing: normal;
+    color: #000;
+    margin-bottom: 15px;
+}
+.tvmultibanners-content h4 span {
+    font-weight: 900;
+    -webkit-text-stroke: 3px #fff;
+    position: relative;
+    z-index: 1;
+}
+.tvmultibanners-content h4 span::after {
+    content: '';
+    position: absolute;
+    left: -2px;
+    right: 0px;
+    bottom: 4px;
+    height: 14px;
+    background-color: #62774c;
+    text-shadow: 0px 0px 3px #ececec;
+    z-index: -1;
+}
+.tvmultibanners-content h6 {
+    font-size: 31px;
+    font-weight: 500;
+    color: #62774c;
+    font-family: 'Caveat';
+    margin-bottom: 10px;
+}
+.tvmultibanners-content h6 span {
+    color: #222;
+    font-weight: 700;
+}
+.tvmultibanners-content p {
+    margin-bottom: 5px;
+}
+.tvmultibanner-1 .tvmultibanners-content h6 span {
+    color: #f40e2f;
+}
+.tvmultibanner-2 .tvmultibanners-content h6 span {
+    color: #ffe50d;
+}
+.tvmultibanner-2 .tvmultibanners-content h4,
+.tvmultibanner-2 .tvmultibanners-content h6 {
+    color: #fff;
+}
+.tvmultibanners-content .tvall-inner-btn {
+    padding: 9px 56px;
+}
+.tvmultibanners-content .tvmultibanner-btn {
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+    border: 2px solid #ffffff;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 10px 34px;
+    cursor: pointer;
+    line-height: 19px;
+    display: inline-block;
+    margin-top: 15px;
+}
+.tvmultibanners-content .tvmultibanner-btn:hover {
+    background-color: #222;
+    border-color: #222;
+    color: #fff;
+}
+/***** mobile tvcmsmultibanner2 *****/
+@media (max-width: 1440px) and (min-width: 992px) {
+    .tvmultibanners-content h4 {
+        font-size: 46px;
+    }
+    .tvmultibanners-content h6 {
+        font-size: 28px;
+    }
+    .tvmultibanners-content h4 span {
+        -webkit-text-stroke-width: 2.5px;
+    }
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+    .tvmultibanners-content h4 {
+        font-size: 38px;
+    }
+    .tvmultibanners-content h6 {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+    .tvmultibanners-content h4 span {
+        -webkit-text-stroke-width: 2.2px;
+    }
+    .tvmultibanners-content .tvmultibanner-btn {
+        padding: 8px 26px;
+    }
+    .tvmultibanners-content h4 span::after {
+        bottom: 2px;
+    }
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+    .tvmultibanners-content h4 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .tvmultibanners-content h6 {
+        font-size: 21px;
+        margin-bottom: 5px;
+    }
+    .tvmultibanners-content h4 span {
+        -webkit-text-stroke-width: 1.8px;
+    }
+    .tvmultibanners-content .tvmultibanner-btn {
+        padding: 8px 26px;
+    }
+    .tvmultibanners-content h4 span::after {
+        bottom: 2px;
+    }
+}
+@media(max-width: 991px) and (min-width: 768px) {
+    .col-xl-12.tvmultibanner-4 .tvmultibanners-content.left {
+        left: 2%;
+        width: 43%;
+    }
+    .tvbanner-hover-wrapper:after {
+        display: none;
+    }
+    .tvcmsmultibanners {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 850px) and (min-width: 768px) {
+    .tvmultibanners-content h4 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .tvmultibanners-content h6 {
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    .tvmultibanners-content h4 span {
+        -webkit-text-stroke-width: 1px;
+    }
+    .tvmultibanners-content .tvmultibanner-btn {
+        padding: 7px 20px;
+        margin-top: 0;
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .tvmultibanners-content h4 span::after {
+        bottom: 2px;
+    }
+}
+@media (max-width: 767px) {
+    .col-xl-12.tvmultibanner-4 .tvmultibanners-content h4 {
+        font-size: 34px;
+    }
+    .col-xl-12.tvmultibanner-4 .tvmultibanners-content h4 span {
+        -webkit-text-stroke-width: 1.3px;
+    }
+    .tvmultibanners-content h6 {
+        font-size: 26px;
+        margin-bottom: 5px;
+    }
+}
+@media (max-width: 575px) {
+    .col-xl-12.tvmultibanner-4 .tvmultibanners-content h4 {
+        font-size: 26px;
+    }
+    .col-xl-12.tvmultibanner-4 .tvmultibanners-content h4 span {
+        -webkit-text-stroke-width: 1.3px;
+    }
+    .col-xl-12.tvmultibanner-4 .tvmultibanners-content h6 {
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+}
+@media (max-width: 425px) {
+    .tvmultibanners-content h4 {
+        font-size: 40px;
+    }
+    .tvmultibanners-content h6 {
+        font-size: 23px;
+    }
+    .col-xl-12.tvmultibanner-4 .tvmultibanners-content h4 {
+        font-size: 22px;
+    }
+    .col-xl-12.tvmultibanner-4 .tvmultibanners-content h4 span {
+        -webkit-text-stroke-width: .8px;
+    }
+    .col-xl-12.tvmultibanner-4 .tvmultibanners-content h6 {
+        font-size: 18px;
+        margin-bottom: 2px;
+    }
+    .col-xl-12.tvmultibanner-4 .tvmultibanners-content h4 span::after {
+        bottom: 2px;
+        height: 9px;
+    }
+    .tvmultibanners-content .tvmultibanner-btn {
+        padding: 7px 20px;
+        margin-top: 10px;
+        font-size: 13px;
+        line-height: 17px;
+    }
+}
+@media (max-width: 375px) {
+    .tvmultibanners-content h4 {
+        font-size: 30px;
+    }
+    .tvmultibanners-content h6 {
+        font-size: 20px;
+    }
+     .tvmultibanners-content h4 span {
+        -webkit-text-stroke-width: 1.5px;
+    }
+    .tvmultibanners-content h4 span::after {
+        bottom: 2px;
+        height: 10px;
+    }
+    .col-xl-12.tvmultibanner-4 .tvmultibanners-content h4 {
+        font-size: 18px;
+        margin: 0;
+    }
+    .col-xl-12.tvmultibanner-4 .tvmultibanners-content h4 span {
+        -webkit-text-stroke-width: .8px;
+    }
+    .col-xl-12.tvmultibanner-4 .tvmultibanners-content h6 {
+        font-size: 14px;
+        margin-bottom: 2px;
+    }
+    .col-xl-12.tvmultibanner-4 .tvmultibanners-content h4 span::after {
+        bottom: 2px;
+        height: 9px;
+    }
+    .tvmultibanners-content .tvmultibanner-btn {
+        padding: 7px 20px;
+        margin-top: 10px;
+        font-size: 13px;
+        line-height: 17px;
+    }
+}
+.tvmultibanner-second.tvcmsmultibanners .tvmultibanner-3,
+.tvmultibanner-second.tvcmsmultibanners .tvmultibanner-2 {
+    margin-bottom: 30px;
+    /*padding: 0;*/
+}
+.tvmultibanner-second .tvbanner-hover-wrapper img,
+.tvmultibanner-second .tvbanner-hover-wrapper {
+    border: none;
+}
+@media(max-width: 575px) {
+    .tvcmsmultibanners .tvbanner-hover-wrapper {
+        margin-bottom: 15px !important;
+    }
+    .tvmultibanner-second.tvcmsmultibanners .tvmultibanner-2 {
+        margin-bottom: 0;
+    }
+}

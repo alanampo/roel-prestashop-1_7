@@ -1,0 +1,409 @@
+/**
+* 2007-2022 PrestaShop
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Academic Free License (AFL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/afl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@prestashop.com so we can send you a copy immediately.
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+* versions in the future. If you wish to customize PrestaShop for your
+* needs please refer to http://www.prestashop.com for more information.
+*
+*  @author    PrestaShop SA <contact@prestashop.com>
+*  @copyright 2007-2022 PrestaShop SA
+*  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+*  International Registered Trademark & Property of PrestaShop SA
+*/
+/********************************service ****************/
+.tvcmscustomer-services {
+    position: relative;
+    margin-bottom: 100px;
+}
+.tvcmscustomer-services .tvservices-center {
+    background-color: unset;
+    box-shadow: none;
+    border: none;
+    text-align: center;
+}
+.tvservices-img {
+    background-color: #62774c;
+    border-radius: 100%;
+    display: inline-block;
+    padding: 5px;
+}
+.tvservices-img img {
+    background-color: #FFF;
+    border-radius: 100%;
+}
+@media (max-width: 991px) {
+    .tvservices-all-block {
+        display: block;
+        overflow: hidden;
+    }
+    .tvservices-center.card {
+        display: block;
+        width: 50%;
+        float: left;
+        margin-bottom: 20px;
+    }
+}
+.tvservice-all-block-image {
+    overflow: hidden;
+    position: relative;
+}
+.tvcmscustomer-services .tvservices-center {
+    padding: 30px;
+}
+.tv-all-service.card-deck {
+    margin-bottom: 0;
+    direction: ltr;
+    border-spacing: 0;
+}
+.tvcmscustomer-services .tvservices-img-conut i {
+    display: none;
+}
+.tvservices-content-box .tvservices-title {
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: normal;
+}
+.tvservices-content-box .tvservice-dec {
+    font-size: 14px;
+    line-height: 22px;
+    color: #000;
+    font-weight: 500;
+}
+/***** mobile service *****/
+@media(max-width: 1199px) {
+    .tvcmscustomer-services .tvservices-center {
+        padding: 30px 15px;
+    }
+}
+@media (max-width: 1024px) {
+    .tvservices-center.odd:last-child {
+        display: block;
+        overflow: hidden;
+        margin: auto;
+        float: none;
+    }
+}
+@media(max-width: 991px) {
+    .tv-all-service.card-deck {
+        border: none;
+    }
+    .tvcmscustomer-services .tvservices-center {
+        border: none;
+        margin-bottom: 0;
+        padding: 15px;
+    }
+    #left-column .tvcmscustomer-services .tvservices-center .tvall-block-box-shadows {
+        border: none;
+    }
+}
+@media(max-width: 575px) {
+    .tv-all-service.card-deck {
+        display: inline-block;
+    }
+    .tvcmscustomer-services .tvservices-center {
+        padding: 15px 0;
+    }
+}
+.tvservices-wrapper {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+}
+.tvcmscustomer-services .tvservices-center {
+    background-color: unset;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 0px;
+    padding: 0;
+}
+@media (min-width: 992px){
+    .tvservices-img-conut{
+        transform: translateY(-45px);
+    }
+    .tvcmscustomer-services .tvservices-center.odd {
+        margin-bottom: 35%;
+    }
+}
+.tvservices-img i {
+    color: #ffffff;
+}
+.tvcmscustomer-services .tvservices-1 .tvservices-img-conut,
+.tvcmscustomer-services .tvservices-2 .tvservices-img-conut {
+    margin-left: 20px;
+}
+.tvcmscustomer-services .tvservices-3 .tvservices-img-conut,
+.tvcmscustomer-services .tvservices-4 .tvservices-img-conut,
+.tvcmscustomer-services .tvservices-5 .tvservices-img-conut,
+.tvcmscustomer-services .tvservices-6 .tvservices-img-conut {
+    margin-right: 20px;
+}
+.tvservices-1 .tvservices-wrapper,
+.tvservices-2 .tvservices-wrapper {
+    text-align: left;
+    justify-content: flex-end;
+}
+.tvservices-3 .tvservices-wrapper,
+.tvservices-4 .tvservices-wrapper,
+.tvservices-5 .tvservices-wrapper,
+.tvservices-6 .tvservices-wrapper {
+    text-align: left;
+}
+.tvservices-content-box .tvservices-title {
+    margin-bottom: 10px;
+}
+.tvourprocesss-block-img {
+    padding: 0;
+    text-align: center;
+}
+.tvcms-service-first,
+.tvcms-service-second {
+    /*padding: 0;*/
+}
+.tvservices-info {
+    background-color: #f7f7f7;
+    padding: 30px 22PX;
+    margin-top: 20px;
+}
+.tvservices-img-conut {
+    min-width: 90px;
+    min-height: 90px;
+}
+.tvservice-inner {
+    position: relative;
+    padding: 100px 0 80px;
+    width: 82%;
+    margin: auto;
+}
+@media (max-width: 991px) {
+    .tvservices-all-block {
+        display: block;
+        overflow: hidden;
+    }
+    .tvservices-center.card {
+        display: block;
+        /*width: 50%;*/
+        float: left;
+        margin-bottom: 20px;
+    }
+    .tvcms-service-first,
+    .tvcms-service-second {
+        padding: 0 15px;
+    }
+    .tvcmscustomer-services .tvservices-center {
+        margin: 0;
+        padding: 15px;
+    }
+}
+@media (max-width: 575px) {
+    .tvcms-service-first,
+    .tvcms-service-second {
+        padding: 0;
+    }
+}
+/***** left service *****/
+#left-column .tv-all-service.card-deck,
+#right-column .tv-all-service.card-deck {
+    border-left: none;
+}
+#left-column .tvcmscustomer-services .tvservices-center,
+#right-column .tvcmscustomer-services .tvservices-center {
+    display: block;
+    border: none;
+    padding: 15px;
+    border-bottom: 1px solid #f7f7f7;
+}
+#left-column .tvcmscustomer-services .tvservices-center:last-child,
+#right-column .tvcmscustomer-services .tvservices-center:last-child {
+    border-bottom: none;
+}
+#left-column .tvcms-main-title .tvmain-title,
+#right-column .tvcms-main-title .tvmain-title {
+    line-height: 40px;
+}
+#left-column .tvcmsmain-title-wrapper,
+#right-column .tvcmsmain-title-wrapper {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+    padding: 0 15px;
+}
+#left-column .tvcmscustomer-services .tvservices-img-conut,
+#right-column .tvcmscustomer-services .tvservices-img-conut {
+    margin-bottom: 0;
+    margin-right: 15px;
+}
+#left-column .tvservices-content-box,
+#right-column .tvservices-content-box {
+    text-align: left;
+}
+#left-column .tvservices-wrapper,
+#right-column .tvservices-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+}
+#left-column .tvcustomer-services.container,
+#right-column .tvcustomer-services.container {
+    padding: 0;
+}
+#left-column .tvservices-content-box .tvservices-title,
+#right-column .tvservices-content-box .tvservices-title {
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #222222;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    margin-bottom: 5px;
+}
+@media(max-width: 1199px) {
+    #left-column .tvcmscustomer-services .tvservices-center,
+    #right-column .tvcmscustomer-services .tvservices-center {
+        width: 50%;
+        float: left;
+    }
+}
+@media(max-width:767px) {
+    #left-column .tvcmscustomer-services .tvservices-center,
+    #right-column .tvcmscustomer-services .tvservices-center {
+        width: 100%;
+        float: none;
+    }
+}
+.lang-rtl #left-column .tvservices-wrapper,
+.lang-rtl #right-column .tvservices-wrapper {
+    direction: rtl;
+}
+.lang-rtl #left-column .tvcmscustomer-services .tvservices-img-conut,
+.lang-rtl #right-column .tvcmscustomer-services .tvservices-img-conut {
+    margin: 0 0 0 15px;
+}
+.lang-rtl #left-column .tvservices-content-box,
+.lang-rtl #right-column .tvservices-content-box {
+    text-align: right;
+}
+.control-label {
+    text-transform: capitalize;
+}
+.tvourprocesss-img-block {
+    z-index: 1;
+    position: relative;
+}
+.tvservices-all-block:after {
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    border-radius: 100%;
+    width: 400px;
+    height: 400px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: block;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 5%);
+}
+.tvservices-all-block:before {
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    border-radius: 100%;
+    width: 600px;
+    height: 600px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: block;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 5%);
+}
+.tvservices-all-block:hover:after,
+.tvservices-all-block:hover:before {
+    border: 2px dashed #62774c30;
+    animation: spin 1s linear infinite;
+}
+@media (max-width: 1200px) {
+    .tvservice-inner {
+        width: auto;
+        margin: 0 -15px;
+        padding: 60px 0 40px;
+    }
+    .tvservices-all-block:after {
+        width: 360px;
+        height: 360px;
+    }
+    .tvservices-all-block:before {
+        width: 540px;
+        height: 540px;
+    }
+}
+@media (max-width: 991px){
+    .tvourprocesss-img-block{
+        padding: 50px;
+    }
+    .tvservices-all-block:after {
+        width: 320px;
+        height: 320px;
+    }
+    .tvservices-all-block:before {
+        width: 520px;
+        height: 520px;
+    }
+    .tvservices-info{
+        margin: 0;
+    }
+    .tvservice-inner{
+        padding: 0;
+    }
+}
+@media (max-width: 575px){
+ .tvservices-all-block:after {
+        width: 270px;
+        height: 270px;
+    }
+    .tvservices-all-block:before {
+        width: 430px;
+        height: 430px;
+    }
+}
+@media (max-width: 480px){
+ .tvservices-all-block:after {
+        width: 250px;
+        height: 250px;
+    }
+    .tvservices-all-block:before {
+        width: 370px;
+        height: 370px;
+    }
+}
+@media (max-width: 375px){
+    .tvourprocesss-img-block{
+        padding: 15px;
+    }
+ .tvservices-all-block:after {
+        width: 200px;
+        height: 200px;
+    }
+    .tvservices-all-block:before {
+        width: 290px;
+        height: 290px;
+    }
+}

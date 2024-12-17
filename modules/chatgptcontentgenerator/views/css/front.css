@@ -1,0 +1,270 @@
+/**
+* 2007-2023 PrestaShop
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Academic Free License (AFL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/afl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@prestashop.com so we can send you a copy immediately.
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+* versions in the future. If you wish to customize PrestaShop for your
+* needs please refer to http://www.prestashop.com for more information.
+*
+*  @author    PrestaShop SA <contact@prestashop.com>
+*  @copyright 2007-2023 PrestaShop SA
+*  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+*  International Registered Trademark & Property of PrestaShop SA
+*
+* Don't forget to prefix your containers with your own identifier
+* to avoid any conflicts with others containers.
+*/
+.blog-content-images {
+    max-width: 400px;
+}
+
+.gpt-blog-list {
+    display: grid;
+    width: 100%;
+    gap: 10px;
+
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.blog_item_img img {
+    max-width: 100%;
+    width: 100%;
+    object-fit: contain;
+    height: 175px;
+}
+
+.post-wrapper .blog-title-block {
+    margin-top: 13px;
+    display: block;
+    margin-bottom: 10px;
+}
+.blog-latest-toolbar-views {
+    margin-right: 5px;
+}
+
+.blog-latest-toolbar-views:before {
+    content: "visibility";
+    font-family: 'Material Icons';
+    padding-right: 3px;
+
+    font-style: normal;
+    font-weight: 500;
+    line-height: 15px;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-size: 18px;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+}
+
+.blog-latest-toolbar {
+    font-size: 14px;
+    margin-top: 2px;
+    margin-bottom: 4px;
+    color: #bfbfbf;
+}
+
+.blog-title-block {
+    color: #414141;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 9px;
+    padding: 5px 0 9px;
+    text-transform: uppercase;
+}
+
+
+/* post page */
+body .page-header h1 {
+    margin: 0 5px 0;
+    font-size: 26px;
+}
+body #main .page-header {
+    margin-bottom: 10px;
+}
+
+.blog-extra {
+    margin: 5px 0 15px;
+    width: 100%;
+}
+
+
+.post-details .ybc-blog-latest-toolbar {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.post-date .be-label::before {
+    content: "schedule";
+    font-family: 'Material Icons';
+    padding-right: 7px;
+    text-indent: 0;
+    text-align: center;
+    width: 100%;
+
+    font-style: normal;
+    font-weight: 500;
+    line-height: 15px;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-size: 18px;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+}
+
+.post-content p {
+    text-align: justify;
+    color: #000000;
+}
+
+.post-content h2 {
+    font-size: 18px;
+}
+
+.post-featured-image img {
+    max-height: 400px;
+}
+
+.post-featured-image {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 10px 0px;
+}
+
+@media screen and (max-width: 767px) {
+    .gpt-blog-list {
+        grid-template-columns: 1fr;
+    }
+
+    #module-chatgptcontentgenerator-bloghome #content-wrapper,
+    #module-chatgptcontentgenerator-blogpost #content-wrapper{
+        padding-left: unset;
+        padding-right: unset;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .blog-content-images {
+        max-width: 100%;
+    }
+}
+
+/* Search block & sidebar */
+.blog_block_search form {
+    position: relative;
+}
+
+.blog_block_search input {
+    background-color: #fff;
+    border: 1px solid #bdbdbd;
+    font-size: 14px;
+    height: 40px;
+    padding-left: 15px;
+}
+
+.blog_block_search .button {
+    background-color: transparent;
+    border: medium;
+    font-size: 0;
+    height: 100%;
+    position: absolute;
+    background-image: none;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 45px;
+    cursor: pointer;
+}
+
+.blog_block_search .icon_search {
+    height: 100%;
+    pointer-events: none;
+    position: absolute;
+    right: -10px;
+    top: 8px;
+    width: 40px;
+}
+
+.blog_block_search .icon_search i::before {
+    content: 'search';
+}
+
+.blog-column {
+    margin-bottom: 1.563rem;
+    /* background: #fff; */
+}
+
+.blog-column .blog-list-post {
+    margin-bottom: 20px;
+}
+
+.blog-related-product,
+.blog-category-products {
+    /* background-color: #fff; */
+    padding: 10px 5px;
+}
+
+
+#module-chatgptcontentgenerator-bloghome #left-column,
+#module-chatgptcontentgenerator-blogpost #left-column {
+    margin-bottom: 10px;
+    padding: 23px;
+}
+
+#module-chatgptcontentgenerator-bloghome #left-column,
+#module-chatgptcontentgenerator-blogpost #left-column,
+#module-chatgptcontentgenerator-bloghome #main,
+#module-chatgptcontentgenerator-blogpost #main {
+    background: #fff;
+}
+
+#module-chatgptcontentgenerator-bloghome #main,
+#module-chatgptcontentgenerator-blogpost #main {
+    padding: 23px 10px 0px 10px;
+}
+#module-chatgptcontentgenerator-bloghome .pagination a{
+    font-weight: normal;
+}
+
+.blog-single{
+    padding: 5px;
+}
+
+.recents-blog-post {
+    background-color: #fff;
+    padding: 23px;
+}
+
+.blog_block_search.icon_search {
+    color: #7a7a7a;
+}
+
+.blog-category-products .wishlist-button-add {
+    position: absolute;
+    top: 0.635rem;
+    right: 0.635rem;
+    z-index: 10
+}

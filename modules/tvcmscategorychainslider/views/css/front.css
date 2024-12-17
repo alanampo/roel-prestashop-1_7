@@ -1,0 +1,128 @@
+/**
+* 2007-2022 PrestaShop
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Academic Free License (AFL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/afl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@prestashop.com so we can send you a copy immediately.
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+* versions in the future. If you wish to customize PrestaShop for your
+* needs please refer to http://www.prestashop.com for more information.
+*
+*  @author PrestaShop SA <contact@prestashop.com>
+*  @copyright  2007-2022 PrestaShop SA
+*  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+*  International Registered Trademark & Property of PrestaShop SA
+*/
+
+/****************************category*********************/
+
+.tvcategory-chain-slider-main-title-wrapper {
+    position: relative;
+}
+.tvcmscategory-chain-slider {
+    margin-bottom: 30px;
+}
+.tvcategory-chain-slider-wrapper {
+    border: none;
+    border-radius: 0;
+    overflow: visible;
+    background-color: #fff;
+}
+.tvcategory-chain-slider-wrapper-info {
+    padding: 0 15px 5px;
+}
+.tvcategory-chin-img-block{
+    padding: 0;
+}
+.tvcategory-chain-content-wrapper {
+   position: relative;
+    padding: 13px 15px 20px 15px;
+    border: 1px solid #eee;
+    border-top: none;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.tvcategory-chain-title {
+    text-align: center;
+    padding: 10px 0 10px 0;
+    position: relative;
+}
+.tvcategory-chain-title a {
+    color: #222;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+.tvcategory-chain-slider-category {
+    width: 100%;
+    float: none;
+    padding-bottom: 14px;
+}
+a.tvcategory-chain-slider-category {
+    color: #222;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    display: block;
+    letter-spacing: .5px;
+    padding-left: 0;
+    position: relative;
+}
+a.tvcategory-chain-slider-category:hover{
+    color: #62774c;
+    text-decoration: underline;
+}
+.tvcategory-chain-slider-all-link i {
+    font-size: 12px;
+    line-height: 1;
+    margin-right: 4px;
+}
+.tvcategory-chain-slider-all-link a {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 3px;
+    display: inline-block;
+}
+.tvcategory-chain-slider-all-link{
+    background-color: #fff;
+     position: relative;
+    padding: 12px 33px;
+    cursor: pointer;
+    border-radius: 30px;
+    line-height: 0;
+    border: 1px solid #62774c;
+}
+.tvcategory-chain-slider-all-link span{
+    color: #000;
+     font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    vertical-align: middle;
+    letter-spacing: 0.5px;
+}
+.tvcategory-chain-slider-all-link:hover{
+    background-color: #62774c;
+}
+.tvcategory-chain-slider-all-link:hover span{
+    color: #fff;
+}
+@media(max-width: 991px) {
+    .tvcmscategory-chain-slider {
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 575px) {
+    .tvcategory-chain-slider-category {
+        font-size: 14px;
+    }
+}

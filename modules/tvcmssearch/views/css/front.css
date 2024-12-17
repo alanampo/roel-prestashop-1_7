@@ -1,0 +1,192 @@
+/************************************************** desktop search ***************************/
+#header .header-top .search-widget {
+    float: left;
+    min-width: auto;
+}
+.tvcmsheader-search.search-widget form input[type=text] {
+    border: none;
+}
+.tvcmsheader-search .tvcms-select-category {
+    display: none;
+}
+
+.lang-rtl #header .tvsearch-header-display-wrappper {
+    right: auto;
+    left: 0;
+}
+#pagenotfound .page-not-found .search-widget .tvsearch-header-display-wrappper {
+    position: inherit;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+}
+.tvsearch-top-wrapper.open .tvsearch-header-display-wrappper {
+    display: block;
+}
+.tvsearch-top-wrapper .tvsearch-close i {
+    /*display: none;*/
+}
+.tvsearch-top-wrapper .tvsearch-close {
+    display: none;
+}
+.tvsearch-top-wrapper.open .tvheader-search-display-icon {
+    display: none;
+}
+.tvsearch-header-display-wrappper form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    z-index: 15;
+    border: 1px solid #f0f0f0;
+    border-radius: 50px;
+    background-color: #ffffff;
+}
+.tvheader-top-search-wrapper {
+    background-color: #ffffff;
+}
+.search-widget form button[type=submit] {
+    cursor: pointer;
+}
+.tvcmsheader-search.search-widget form button[type=submit] {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    top: 0;
+    position: inherit;
+}
+.tvcmssearch-wrapper {
+    /*float: left;*/
+    position: relative;
+    cursor: pointer;
+}
+
+#_desktop_search .tvcmsheader-search .tvserach-name {
+    display: none;
+}
+.tvcmsheader-search form input::placeholder {
+    opacity: 1;
+}
+/* search result */
+.tvsearch-dropdown-total-wrapper {
+    text-align: initial;
+    margin: 0 0 15px 0;
+    /*line-height: 40px;*/
+    /*border: 1px solid #eeeeee;*/
+    /*padding: 0 15px;*/
+}
+.tvsearch-result {
+    position: absolute;
+    width: 100%;
+    z-index: 20;
+    top: 100%;
+    margin-top: 10px;
+}
+.tvsearch-header-display-wrappper {
+    position: relative;
+}
+.tvsearch-result .product-price-and-shipping {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top;
+    margin: 0;
+}
+.tvcmssearch-dropdown {
+    padding: 15px;
+    /*border: 1px solid #eeeeee;*/
+    border-bottom: 4px solid #b9836b;
+}
+.tvsearch-all-dropdown-wrapper {
+    overflow: hidden;
+}
+.tvsearch-dropdown-wrapper {
+    width: 50%;
+    margin-bottom: 15px;
+    padding: 0 7.5px;
+}
+.tvsearch-dropdown-wrapper a {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px;
+    border: 1px solid #eeeeee;
+}
+.tvsearch-dropdown-img-block {
+    /*float: left;*/
+    height: auto;
+    width: 30%;
+    /*border: 1px solid #eeeeee;*/
+    overflow: hidden;
+}
+.tvsearch-dropdown-content-box {
+    /*margin-left: 85px;*/
+    text-align: left;
+    width: 70%;
+    padding-left: 10px;
+}
+.tvsearch-dropdown-title {
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.tvsearch-dropdown-price .tvsearch-dropdown-new-price,
+.tvsearch-dropdown-price .tvsearch-dropdown-old-price {
+    float: left;
+    margin-right: 10px;
+}
+.tvsearch-dropodwn-close-wrapper {
+    margin-bottom: 35px;
+}
+.tvheader-top-search {
+    width: 100%;
+}
+.tvsearch-dropdown-close {
+    border: 1px solid #eeeeee;
+    text-align: center;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+}
+.tvsearch-more-search {
+    border: 1px solid #eeeeee;
+    text-align: center;
+    padding: 10px 15px;
+    cursor: pointer;
+    /*display: inline-block;*/
+}
+.tvsearch-all-dropdown-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -7.5px;
+}
+.tvsearch-more-search.tvall-inner-btn {
+    margin-bottom: 0;
+    /*width: 100%;*/
+}
+
+/************* mobile search css ************/
+
+@media(max-width: 575px) {
+    .tvcmssearch-wrapper {
+        position: inherit;
+    }
+    .search-widget form input[type=text] {
+        min-width: auto;
+    }
+}
+/************************ rtl **************/
+.lang-rtl .tvsearch-dropdown-total {
+    direction: ltr;
+}
+.lang-rtl .tvsearch-dropdown-img-block {
+    /*float: right;*/
+}
+.lang-rtl .tvsearch-dropdown-content-box {
+    padding-right: 10px;
+    padding-left: 0;
+    text-align: right;
+}
+.lang-rtl .tvsearch-dropdown-price .tvsearch-dropdown-new-price,
+.lang-rtl .tvsearch-dropdown-price .tvsearch-dropdown-old-price {
+    float: right;
+    margin-left: 5px;
+}

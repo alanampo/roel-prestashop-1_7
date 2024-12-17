@@ -1,0 +1,10 @@
+
+[{shop_url}] 
+
+{message} 		 
+
+Use link to access or send message {link_message}.
+
+
+{shop_name} [{shop_url}]
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>orderonwhatsapp</name>
+    <displayName><![CDATA[Integraci&oacute;n de WhatsApp PRO: pedido r&aacute;pido, chat, contacto y agentes]]></displayName>
+    <version><![CDATA[2.4.8]]></version>
+    <description><![CDATA[Permita que los visitantes realicen pedidos r&aacute;pidos usando WhatsApp, agregue botones de contacto con m&uacute;ltiples agentes]]></description>
+    <author><![CDATA[weblir]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

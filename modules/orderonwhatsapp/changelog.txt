@@ -1,0 +1,62 @@
+#### Initial Release v1.0.0 – June 28 2017 ####
+
+
+#### Minor Release v1.5.0 – July 10 2018 ####
+[FIXED] - Fixed small bugs
+
+
+#### Minor Release v1.8.0 – July 10 2019 ####
+[ADDED] - Added additional features
+
+
+#### Minor Release v1.9.5 – September 18 2020 ####
+[FIXED] - Fixed small bugs
+[ADDED] - Added additional features
+
+
+#### Major Update v2.1.5 – March 25 2021 ####
+[ADDED] - Added option to set the required inputs
+[ADDED] - Added option to set WhatsApp message template
+[ADDED] - Option to insert WhatsApp message template shortcodes
+
+
+#### Major Update v2.2.8 – April 14 2021 ####
+[ADDED] - Option to add Chat/Contact CTA Button
+[ADDED] - Option to display Chat/Contact CTA Button on selected pages
+[ADDED] - Added 6 chat/contact CTA Buton templates
+[ADDED] - Option to add and manage multiple WhatsApp contact numbers
+
+
+#### Minor Release v2.2.9 – April 28 2021 ####
+[FIXED] - Fixed bug when saving backend configuration form settings
+
+#### Minor Release v2.3.0 – April 30 2021 ####
+[FIXED] - Disabled new carrier creation on new WhatsApp orders
+
+#### Minor Release v2.3.1 – June 30 2021 ####
+[FIXED] - Fixed issues while creating new WhatsApp orders
+[FIXED] - Fixed bug when saving the Message template field in the backend configuration form settings
+
+#### Minor Release v2.4.1 – July 16 2021 ####
+[ADDED] - Added option for setting default shipping carrier for admin
+[ADDED] - Added option for setting default payment option for admin
+
+#### Minor Release v2.4.2 – August 3 2021 ####
+[ADDED] - Added translations for RU, AR, FR, DE, ES, PT, IT, PL, NL, ZH, RO
+
+#### Minor Release v2.4.5 – September 7 2021 ####
+[ADDED] - Added customer contact button on order edit page backend
+
+#### Minor Release v2.4.6 – September 24 2021 ####
+[ADDED] - Added customer contact textarea with predefined message on order edit page backend
+[ADDED] - Added postcode field to WhatsApp order form
+[ADDED] - Improved method that displays carrier list in the backend page
+[ADDED] - Improved method that displays states list
+[FIXED] - Fixed iPhone mobile device compatibility on states list
+
+#### Minor Release v2.4.7 – September 24 2021 ####
+[ADDED] - Added tweaks for validating the order
+
+#### Minor Release v2.4.8 – February 17 2023 ####
+[ADDED] - Added feature to autocomplete customer address form
+[ADDED] - Added button to enable/disable autocomplete for customer address form

@@ -1,0 +1,91 @@
+/**
+* 2007-2022 PrestaShop
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Academic Free License (AFL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/afl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@prestashop.com so we can send you a copy immediately.
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+* versions in the future. If you wish to customize PrestaShop for your
+* needs please refer to http://www.prestashop.com for more information.
+*
+*  @author PrestaShop SA <contact@prestashop.com>
+*  @copyright  2007-2022 PrestaShop SA
+*  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+*  International Registered Trademark & Property of PrestaShop SA
+*/
+
+/************************* brand ******************/
+.tvbrandlist-slider-inner {
+	position: relative;
+}
+.tvcmsbrandlist-slider-main-title-wrapper{
+    display: none;
+}
+.tvcmsbrandlist-slider {
+	position: relative;
+}
+.tvbrandlist-slider {
+	position: relative;
+}
+.owl-carousel .owl-item .tvbrandlist-slider-wrapper-info img {
+	width: auto;
+	margin: auto;
+}
+@media (max-width: 991px) {
+	.tvcmsbrandlist-slider {
+		/*margin-bottom: 50px;*/
+	}
+}
+.tvbrandlist-slider-wrapper-info {
+    margin: 0 7.5px;
+}
+.tvbrandlist-slider-block {
+    margin: 0 -7.5px;
+    position: relative;
+}
+.owl-carousel .owl-item .tvbrandlist-slider-wrapper-info .tvbrand-img-block img {
+    opacity: 1;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    -ms-opacity: 1;
+    -o-opacity: 1;
+    transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    max-width: 100%;
+    margin: 0 auto;
+    width: auto;
+}
+.owl-carousel .owl-item .tvbrandlist-slider-wrapper-info .tvbrand-img-block:hover img {
+    opacity: 0.6;
+    -webkit-opacity: 0.6;
+    -moz-opacity: 0.6;
+    -ms-opacity: 0.6;
+    -o-opacity: 0.6;
+    transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+}
+@media (max-width: 991px) {
+    .tvcmsbrandlist-slider {
+        /*margin: 0 0 30px 0;*/
+    }
+}
+@media(max-width: 575px) {
+    .tvbrandlist-slider-content-box {
+        padding: 0 35px;
+    }
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>productquotation</name>
+    <displayName><![CDATA[Cotizaci&oacute;n Producto]]></displayName>
+    <version><![CDATA[2.3.6]]></version>
+    <description><![CDATA[Los clientes pueden enviar la cotizaci&oacute;n usando este m&oacute;dulo.]]></description>
+    <author><![CDATA[FMM Modules]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>
